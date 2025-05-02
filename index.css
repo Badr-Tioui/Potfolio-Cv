@@ -1,0 +1,533 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cer
+{
+   width: 53px;
+   height: 50px;
+   border-radius: 50%;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+ 
+}
+
+.un
+{
+   background-image: url("/image/SCSSCS.png");
+   object-fit: cover;
+}
+
+.log
+{
+    font-family: "DM Sans", sans-serif;
+    font-size: 30px;
+    color: #fff;
+}
+
+.navbardroit
+{
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+
+li
+{
+    list-style: none;
+    font-family: "DM Sans", sans-serif;
+    color: #fff;
+}
+
+li:hover{
+    color: rgb(174, 170, 170);
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.navbargauch
+{
+    display: flex;
+    align-items: center;
+    gap:42px;
+   
+}
+
+
+
+.btt
+{
+    background-color: rgb(29, 102, 109) ;
+    color: #fff;
+    font-family: "DM Sans", sans-serif;
+    border-radius: 10px;
+    border: 2px solid rgb(186, 242, 160) ;
+    padding: 0.5rem 1.4rem ;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+   
+}
+
+.btt:hover
+{
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    color: rgb(0, 0, 0);
+    background-color: rgb(27, 187, 179);
+    
+}
+
+.navbar
+{
+    height: 10vh;
+    background-color: rgb(5, 71, 66);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 400px;
+    transition: all 0.3s ease;
+}
+
+.log1
+{
+    
+    font-style: oblique;
+    font-size: 48px;
+    color: #fff;
+}
+
+.log2
+{
+    font-family: "DM Sans", sans-serif;
+    font-size: 30px;
+    color: #fff;
+}
+
+.rond
+{
+    width: 9px;
+    height: 9px;
+    border-radius: 50px;
+    background-color: rgb(52, 194, 20);
+}
+
+
+.buttona
+{
+    background-color: black;
+    border: none;
+    color: #fff;
+    border-radius: 25px;
+    padding:  0.9rem 1.9rem ;
+    font-family: "DM Sans", sans-serif;
+    font-size: 15px;
+}
+
+.buttona:hover
+{
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    background-color: rgb(95, 43, 144);
+    color: #fff;
+    border: 2px solid violet;
+    padding:  0.9rem 1.7rem ;
+}
+
+.log3
+{
+    
+    font-size: 20px;
+    color: #fff;
+}
+.huhu1
+{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.huha{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    padding-top: 20px;
+    
+}
+
+.imf
+{
+    max-width:max-content;
+}
+.section1guch
+{
+    margin-top: 196px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-left: 70px;
+    
+    
+}
+.nav-item {
+    transition: all 0.5s ease;
+}
+
+.rond1
+{
+    width: 540px;
+    height: 600px;
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    z-index: 1;
+    margin-top: 50px;
+    right: 150px;
+    transition: all 1s ease;
+}
+.une
+{
+   background-image: url("/image/SCSSCS.png");
+   object-fit: cover;
+}
+
+.hasdd
+{
+    position: relative;
+    bottom: 266px;
+    width: 100%;
+}
+
+.hass2
+{
+    position: relative;
+    bottom: 826px;
+    width: 100%;
+}
+.sec{
+    display: flex;
+    justify-content: space-between;
+}
+.section1
+{
+    background-color: rgb(5, 71, 66);
+    height: 106vh;
+}
+
+.log4
+{
+    font-family: "DM Sans", sans-serif;
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(189, 28, 60);
+  
+}
+.gopa
+{
+    font-family: "DM Sans", sans-serif;
+    font-size: 20px;
+}
+.jj
+{
+    font-size: 25px;
+    font-style: oblique;
+
+}
+.partigch
+{
+    position: relative;
+    top: 80px;
+    left: 50px;
+    max-width: max-content;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.partbad1G
+{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    position: relative;
+    top: 59px;
+}
+.imka
+{
+    width: 16%;
+}
+.button
+{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    border: none;
+    color: #fff;
+    border-radius: 25px;
+    padding:  0.9rem 1.9rem ;
+    font-family: "DM Sans", sans-serif;
+    font-size: 15px;
+    gap: 7px;
+}
+
+.button:hover
+{
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    background-color: rgb(95, 43, 144);
+    color: #fff;
+    border: 2px solid violet;
+    padding:  0.9rem 1.7rem ;
+}
+.imaag{
+    display: flex;
+    gap: 13px;
+    cursor: pointer;
+}
+
+.pedr{
+    
+    margin-left: 99px;
+
+}
+.partidro
+{
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    position: relative;
+    left: 750px;
+    max-width: max-content;
+   bottom: 133px;
+}
+.section2
+{
+   background-color: rgb(255, 255, 255);
+   height: 60vh;
+}
+
+
+.log5
+{
+    font-family: "DM Sans", sans-serif;
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: rgb(231, 181, 117);
+    padding-top: 49px;
+  
+}
+
+.jje
+{
+    font-size: 25px;
+    font-style: oblique;
+    text-align: center;
+    color: rgb(255, 255, 255);
+
+}
+.ravha
+{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.logQ
+{
+    font-family: "DM Sans", sans-serif;
+    font-size: 30px;
+    color: rgb(233, 97, 47);
+}
+
+.log8
+{
+    font-size: 20px;
+    color: #fff;
+    font-family: "DM Sans", sans-serif;
+}
+
+.flex
+{
+    display: flex;
+    padding-top: 78px;
+    gap: 17px;
+}
+
+.jeuechec
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.webDynalique
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.XO
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.Gavatar
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.section3
+{
+    background-color: rgb(5, 71, 66);
+    height: 91vh;
+    margin-top: 60px;
+}
+
+
+
+
+.logz
+{
+    font-family: "DM Sans", sans-serif;
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: rgb(189, 28, 60);
+    padding-top: 99px;
+    text-decoration: underline;
+  
+}
+.logp
+{
+    font-size: 23px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+   
+}
+.huua
+{
+    padding-top: 24px;
+    
+}
+
+.nabsa
+{
+    font-style: oblique;
+    color: rgb(240, 134, 28);
+    text-decoration: underline;
+    padding-top: 23px;
+    text-align: center;
+}
+
+
+.secghu{
+    height: 360px;
+    width: 430px;
+    background-color: rgb(5, 71, 66);
+    border-radius: 19px;
+}
+
+.secdrroitt
+{
+    height: 360px;
+    width: 430px;
+    background-color: rgb(5, 71, 66);
+    border-radius: 19px;
+}
+
+.secghu, .secdrroitt 
+{
+    opacity: 0;
+    transform: translateY(40px);
+    transition: all 0.8s ease-out;
+}
+  
+.secghu.active, .secdrroitt.active 
+{
+    opacity: 1;
+    transform: translateY(0);
+}
+  
+
+.faer
+{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+    gap: 99px;
+}
+
+.section4
+{
+    height: 86vh;
+    margin-top: 50px;
+}
+
+
+
+
+
+.hassan
+{
+    font-family: "DM Sans", sans-serif;
+    font-size: 22px;
+    padding-top: 9px;
+    padding-left: 19px;
+   
+}
+
+.hassanE
+{
+    color: #fff;
+    font-family: "DM Sans", sans-serif;
+    font-size: 20px;
+    padding-left: 58px;
+}
+.sec5gt
+{
+    height: 47px;
+    width: 470px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 23px;
+    position: relative;
+    border: 2px solid rgb(247, 18, 18);
+    
+    
+}
+
+.PEDRO
+{
+   
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.section5
+{
+    padding-top: 50px;
+    height: 65vh;
+   background-color: black;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   gap: 140px;
+   
+}
+
+
+
